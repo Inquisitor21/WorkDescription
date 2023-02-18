@@ -1,0 +1,125 @@
+body {
+	text-align: center;
+	font-family: Calibri, Arial, sans-serif;
+	background: url(../Images/Background.png);
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	font-size: 120%;
+}
+
+h1, h2, summary {
+	color: red;
+}
+
+ul {
+	list-style: disc inside;
+}
+
+table, td {
+	border: 3px solid red;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:visited, a:link {
+	color: red;
+	text-decoration: none;
+}
+
+figure, div {
+	display: inline-block;
+	margin: 10px;
+}
+
+header {
+	margin-top: 60px;
+	height: 60px;
+	min-width: 495px;
+	width: 100%;
+	font-size: 100%;
+}
+
+main {
+	margin-top: 50px;
+}
+
+footer {
+	color: cyan;
+	width: 100%;
+	min-width: 495px;
+	height: 50px;
+	font-size: 90%;
+}
+
+header div h1 {					/* Titre Programmeur d'applications */
+	margin-top: 30px;
+	display: inline-block;
+}
+
+header div a img {				/* LOGO */
+	width: 5%;
+	height: 5%;
+	display: inline-block;
+}
+
+main div figure figcaption {		/* Text de Round-img */
+	font-weight: bold;
+}
+
+.TableHead {
+	background-color: red;
+}
+
+.Impaire {
+	background-color: #332e2e;
+}
+
+.Round-img {
+	width: 250px;
+	height: 250px;
+	border-radius: 60%;
+}
+
+.MainIMG {					     /*Image d'accueil*/
+	width: 70%;
+	height: 70%;
+}
+
+.Reference {
+	width: 480px;
+	height: 270px;
+	display: inline-block;
+	margin: auto;
+}
+
+.sidenavbar {
+	width: 100%;
+	left: -10px;
+	top: -10px;
+	position: fixed;
+	display: block;
+	background-color: #332e2e;
+}
+
+.sidenavbar a {
+	text-align: center;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 25px;
+	color: red;
+	display: inline-block;
+}
+
+.sidenavbar a.ActivePage, a:hover, summary:hover, h4{
+	color: cyan;
+}
+
+.sidenavbar a.InactivePage:hover {
+	transition: 0.5s;
+	color: cyan;
+	font-weight: bold;
+	text-decoration: none;
+}
